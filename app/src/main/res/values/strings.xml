@@ -1,0 +1,201 @@
+<resources>
+
+    <string name="app_name">AutoMotiveX</string>
+
+    <!--Welcome Page-->
+    <string name="getStartedText">Get Started</string>
+    <string name="signinText">Sign in</string>
+    <string name="welcomeText">Welcome to AutoMotiveX</string>
+    <string name="welcomeTextSub">Gear up for a smoother ride!</string>
+
+    <!--Signin-->
+    <string name="welcomeBackText">Welcome Back!</string>
+    <string name="emailAddressText">Email Address</string>
+    <string name="passwordText">Password</string>
+    <string name="rememberMeText">Remember Me</string>
+    <string name="forgotPasswordText">Forgot Password?</string>
+    <string name="createNewAccountText">Create New Account</string>
+
+    <!--Sign Up-->
+    <string name="firstNameText">First Name</string>
+    <string name="lastNameText">Last Name</string>
+    <string name="confirmPasswordText">Confirm Password</string>
+    <string name="acceptTermAndConditionsText">I agree to the Terms and Conditions and Privacy Policy.</string>
+    <string name="termAndConditionsText">Terms and Conditions</string>
+    <string name="privacyPolicyText">Privacy Policy</string>
+    <string name="alreadyHaveAccountText">Already Have a Account</string>
+
+    <!--Terms And Conditions-->
+    <string name="lastUpdatedText">Last Updated: 2024.05.17</string>
+    <string name="termsAndConditionPara1">Welcome to AutoMotiveX! By using our app, you agree to the following Terms and Conditions. Please read them carefully before proceeding.</string>
+    <string name="termsAndConditionPara2">By accessing or using AutoMotiveX, you acknowledge that you have read, understood, and agree to be bound by these Terms and Conditions. If you do not agree, please do not use the app.</string>
+    <string name="termsAndConditionPara3">You must be at least 18 years old to use this app. You agree to provide accurate and complete information when creating an account. You are responsible for maintaining the confidentiality of your account credentials. Any unauthorized use of your account should be reported immediately.</string>
+    <string name="termsAndConditionPara4">AutoMotiveX allows users to purchase spare parts and book service appointments. Prices and availability of products are subject to change without notice. Payments must be made through the apps designated payment methods. We are not responsible for any additional fees imposed by payment providers.</string>
+    <string name="termsAndConditionPara5">Orders can only be canceled before they are shipped. Refunds will be issued in accordance with our Refund Policy. Service bookings may be rescheduled, but cancellations may be subject to fees.</string>
+    <string name="termsAndConditionPara6">You agree not to misuse the app for fraudulent activities. Do not post or transmit harmful, offensive, or unlawful content. We reserve the right to suspend or terminate accounts violating these terms.</string>
+    <string name="termsAndConditionPara7">Your use of AutoMotiveX is also governed by our Privacy Policy, which explains how we collect, use, and protect your information.</string>
+    <string name="termsAndConditionPara8">All content, trademarks, and logos in the app belong to AutoMotiveX. You may not copy, modify, or distribute any content without our permission.</string>
+    <string name="termsAndConditionPara9">AutoMotiveX is provided as is without warranties of any kind. We are not liable for any damages resulting from the use of the app. We are not responsible for third-party services or content linked to our app.</string>
+    <string name="termsAndConditionPara10">We reserve the right to update these Terms and Conditions at any time. Continued use of the app after changes are made constitutes your acceptance of the new terms.</string>
+    <string name="termsAndConditionPara11">If you have any questions or concerns, please contact us at automotivex@gmail.com</string>
+    <string name="termsAndConditionPara12">By using AutoMotiveX, you agree to these Terms and Conditions. Thank you for choosing our app!</string>
+    <string name="acceptTermsAndConditionsButton">Accept Terms and Conditions</string>
+
+
+    <!-- Home Activity -->
+    <string name="homeText">Home</string>
+    <string name="searchText">Search</string>
+    <string name="appointmentText">Appointment</string>
+    <string name="cartText">Cart</string>
+    <string name="profileText">Profile</string>
+
+    <!-- Home Fragment -->
+    <string name="featuredProductsText">Featured Products</string>
+    <string name="newArrivalsText">New Arrivals</string>
+    <string name="categoriesText">Categories</string>
+
+    <string name="hello_blank_fragment">Flash Sale</string>
+
+    <!-- Single Product Card Sample Texts -->
+    <string name="productCardTitleText">Engine Oil Filter – Toyota Corolla (2015–2022)</string>
+    <string name="productCardPriceText">Rs.25,000/=</string>
+    <string name="productCardRatingsText">4.8(256) | 250k Sold</string>
+
+    <!-- Search Fragment -->
+    <string name="shopText">Shop</string>
+    <string name="vehicleText">Vehicle</string>
+    <string name="categoryText">Category</string>
+    <string name="priceFromText">Price From (LKR)</string>
+    <string name="priceToText">Price To (LKR)</string>
+
+    <!-- Appointment Fragment -->
+    <string name="mobileNumberText">Mobile Number</string>
+    <string name="vehicleModelText">Vehicle Model</string>
+    <string name="serviceDescriptionText">Service Description</string>
+    <string name="serviceDescriptionHintText">Please describe the service you want to book.</string>
+    <string name="selectAppointmentDateText">Select Appointment Date</string>
+    <string name="requestAppointmentText">Request Appointment</string>
+    <string name="clearAllText">Clear All</string>
+
+    <!-- Cart Fragment -->
+    <string name="checkOutText">Checkout</string>
+    <string name="reloadText">Reload</string>
+    <string name="subtotalText">Sub Total </string>
+    <string name="processingFeeText">Processing Fee (10%)</string>
+    <string name="grandTotalText">Grand Total</string>
+
+    <string name="priceExample">LKR 0.00</string>
+
+    <!-- Cart Item -->
+    <string name="numberExample">01.</string>
+    <string name="QuantityExample">Qty : 01</string>
+    <string name="totalText">Total</string>
+    <string name="deleteText">Delete</string>
+
+    <!-- Profile Fragment -->
+    <string name="userNameExample">Sandeep Kavinda</string>
+    <string name="emailExample">sandeepkavinda203@gmail.com</string>
+    <string name="logoutText">Log Out</string>
+    <string name="editProfileText">Edit Profile</string>
+    <string name="ordersText">Orders</string>
+    <string name="deviceLoginsText">Device Logins</string>
+    <string name="serviceAppointmentsText">Service Appointments</string>
+
+    <!-- Edit Profile Activity -->
+    <string name="currentPasswordText">Current Password</string>
+    <string name="newPasswordText">New Password</string>
+    <string name="confirmNewPasswordText">Confirm New Password</string>
+    <string name="updateDetailsText">Update Details</string>
+    <string name="resetDetailsText">Reset Details</string>
+    <string name="backText">Back</string>
+
+    <!-- Single Product Activity -->
+    <string name="productDetailsText">Product Details</string>
+    <string name="conditionText">Condition</string>
+    <string name="brandNewText">Brand New</string>
+    <string name="quantityText">Quantity :</string>
+    <string name="relatedProductsText">Related Products</string>
+    <string name="productDetailsExample">Premium Spark Plug – High Performance Durability Upgrade your vehicle’s ignition system with our high-quality spark plug, designed for maximum efficiency and long-lasting performance. Engineered to deliver a powerful spark, this plug ensures smooth engine starts, improved fuel efficiency, and reduced emissions.</string>
+    <string name="addToCartText">Add To Cart</string>
+    <string name="buyNowText">Buy Now</string>
+
+    <!-- Checkout Activity -->
+    <string name="checkoutText">Checkout</string>
+    <string name="confirmOrderText">Confirm Order</string>
+    <string name="cancelOrderText">Cancel Order</string>
+    <string name="addressLine1Text">Address Line 1</string>
+    <string name="addressLine2Text">Address Line 2</string>
+    <string name="cityText">City</string>
+    <string name="postalCodeText">Postal Code</string>
+    <string name="customerNotesText">Customer Notes</string>
+    <string name="customerNotesHintText">Add any special instructions or requests for your order</string>
+
+    <!-- Success Signup Activity -->
+    <string name="successfullySignUpText">Congratulations! Your account has been successfully created...</string>
+    <string name="gotoSignInText">Go to Sign In</string>
+
+    <!-- Orders Activity -->
+    <string name="myOrdersText">My Orders</string>
+    <string name="deliveredText">Delivered</string>
+    <string name="notDeliveredText">Not Delivered</string>
+
+    <!-- Admin Dashboard Activity -->
+    <string name="dashboardText">Dashboard</string>
+    <string name="productsText">Products</string>
+    <string name="adminDashboardText">Admin Dashboard</string>
+
+    <!-- Admin Dashboard Fragment-->
+    <string name="dashboardSummeryText">Dashboard Summary</string>
+    <string name="totalRevenueText">Total Revenue</string>
+    <string name="totalOrdersText">Total Orders</string>
+    <string name="totalAppointments">Total Appointments</string>
+    <string name="totalUsersExample">Users Count</string>
+    <string name="totalRevenueExample">LKR 25000.00</string>
+    <string name="salesVolumeByCategoryText">Sales Volume by Category</string>
+
+    <!-- Products Fragment-->
+    <string name="addNewProductText">Add New Product</string>
+    <string name="productTitleText">Product Title</string>
+    <string name="productPriceText">Price</string>
+    <string name="productQuantityText">Quantity</string>
+    <string name="productDescriptionText">Product Description</string>
+    <string name="selectProfileImageText">Select Product Image</string>
+    <string name="selectImageText2">Select Image</string>
+    <string name="addProductText">Add Product</string>
+    <string name="resetDataText">Reset Data</string>
+
+    <!-- Success Order Activity -->
+    <string name="orderPlacedSuccessfullyText">Your Order Placed Successfully</string>
+    <string name="goToMyOrdersText">Go To Orders</string>
+
+
+    <!-- Failed Order Activity -->
+    <string name="paymentFailedText">Payment Failed</string>
+    <string name="goToBackText">Go To Back</string>
+
+    <!-- Success Appointment Request Activity -->
+    <string name="appointmentPlacedSuccessfullyText">Your appointment request has been placed successfully. Please wait for approval.</string>
+    <string name="goToMyAppointmentsText">Go To My Appointments</string>
+
+    <!-- My Appointments Activity -->
+    <string name="myAppointmentsText">My Appointments</string>
+    <string name="allText">All</string>
+    <string name="pendingText">Pending</string>
+    <string name="acceptedText">Accepted</string>
+    <string name="rejectedText">Rejected</string>
+
+    <!-- My Appointments Activity -->
+    <string name="acceptText">Accept</string>
+    <string name="rejectText">Reject</string>
+
+    <!-- Contact Us Activity -->
+    <string name="contactUsText">Contact Us</string>
+
+    <!-- Admin Appointment Fragment -->
+    <string name="appointmentsText">Appointments</string>
+
+    <!-- Log In History Activity -->
+    <string name="loginHistoryText">Login History</string>
+
+
+</resources>

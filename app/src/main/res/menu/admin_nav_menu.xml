@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/admin_nav_dashboard"
+        android:icon="@drawable/nav_dashboard_icon"
+        android:title="@string/dashboardText"/>
+    <item
+        android:id="@+id/admin_nav_product"
+        android:icon="@drawable/nav_product_icon"
+        android:title="@string/productsText"/>
+
+    <item
+        android:id="@+id/admin_nav_orders"
+        android:icon="@drawable/order_icon"
+        android:title="@string/ordersText"/>
+
+    <item
+        android:id="@+id/admin_nav_appointment"
+        android:icon="@drawable/nav_appointment_icon"
+        android:title="@string/appointmentText"/>
+
+<!--    <item-->
+<!--        android:id="@+id/admin_nav_profile"-->
+<!--        android:icon="@drawable/nav_profile_icon"-->
+<!--        android:title="@string/profileText"/>-->
+</menu>

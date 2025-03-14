@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminProductFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/constraintLayout"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="24dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/textView75"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_bold"
+                    android:text="@string/addNewProductText"
+                    android:textSize="20sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="@+id/imageView3"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="60dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/automotivex_logo_dark"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/reloadConstraintLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <ImageView
+                        android:id="@+id/imageView20"
+                        android:layout_width="18dp"
+                        android:layout_height="18dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:src="@drawable/logout_icon"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView67"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="2dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:text="@string/logoutText"
+                        android:textSize="10sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/imageView20"
+                        app:layout_constraintTop_toTopOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <ScrollView
+                android:id="@+id/homeMainScrollView"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/constraintLayout">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="1300dp">
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/inputDetailsConstraintLayout"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="32dp"
+                            android:layout_marginTop="24dp"
+                            android:layout_marginEnd="32dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                            <TextView
+                                android:id="@+id/textView85"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="16dp"
+                                android:layout_marginEnd="4dp"
+                                android:fontFamily="@font/poppins_regular"
+                                android:text="@string/vehicleText"
+                                android:textSize="14sp"
+                                app:layout_constraintEnd_toStartOf="@+id/textView86"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/editTextText" />
+
+                            <Spinner
+                                android:id="@+id/vehicleSpinner2"
+                                android:layout_width="0dp"
+                                android:layout_height="40dp"
+                                android:layout_marginTop="2dp"
+                                android:layout_marginEnd="4dp"
+                                app:layout_constraintEnd_toStartOf="@+id/categorySpinner2"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/textView85" />
+
+                            <TextView
+                                android:id="@+id/textView86"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="4dp"
+                                android:layout_marginTop="16dp"
+                                android:fontFamily="@font/poppins_regular"
+                                android:text="@string/categoryText"
+                                android:textSize="14sp"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toEndOf="@+id/textView85"
+                                app:layout_constraintTop_toBottomOf="@+id/editTextText" />
+
+                            <Spinner
+                                android:id="@+id/categorySpinner2"
+                                android:layout_width="0dp"
+                                android:layout_height="40dp"
+                                android:layout_marginStart="4dp"
+                                android:layout_marginTop="2dp"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toEndOf="@+id/vehicleSpinner2"
+                                app:layout_constraintTop_toBottomOf="@+id/textView86" />
+
+                            <FrameLayout
+                                android:id="@+id/createNewAccountButtonFrameLayout2"
+                                android:layout_width="0dp"
+                                android:layout_height="48dp"
+                                android:background="@drawable/button_shape_grey_color"
+                                app:layout_constraintEnd_toEndOf="@+id/imageView25"
+                                app:layout_constraintStart_toStartOf="@+id/imageView25"
+                                app:layout_constraintTop_toBottomOf="@+id/imageView25">
+
+                                <Button
+                                    android:id="@+id/selectProductImageButton"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="@android:color/transparent"
+                                    android:fontFamily="@font/poppins_medium"
+                                    android:text="@string/selectImageText2"
+                                    android:textAllCaps="true"
+                                    android:textColor="@color/black"
+                                    android:textSize="14sp" />
+                            </FrameLayout>
+
+                            <TextView
+                                android:id="@+id/textView82"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/poppins_regular"
+                                android:text="@string/productTitleText"
+                                android:textSize="14sp"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <EditText
+                                android:id="@+id/editTextText"
+                                android:layout_width="0dp"
+                                android:layout_height="50dp"
+                                android:layout_marginTop="2dp"
+                                android:background="@drawable/edit_text_area_shape"
+                                android:ems="10"
+                                android:fontFamily="@font/poppins_regular"
+                                android:hint="@string/productTitleText"
+                                android:inputType="text"
+                                android:textSize="14sp"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/textView82" />
+
+                            <TextView
+                                android:id="@+id/textView37"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="32dp"
+                                android:fontFamily="@font/poppins_regular"
+                                android:text="@string/selectProfileImageText"
+                                android:textSize="14sp"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/productDescriptionEditText" />
+
+                            <FrameLayout
+                                android:id="@+id/createNewAccountButtonFrameLayout"
+                                android:layout_width="0dp"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="8dp"
+                                android:layout_marginBottom="300dp"
+                                android:background="@drawable/button_shape_grey_color"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/signInButtonFrameLayout">
+
+                                <Button
+                                    android:id="@+id/clearAllButton"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="@android:color/transparent"
+                                    android:fontFamily="@font/poppins_medium"
+                                    android:text="@string/clearAllText"
+                                    android:textAllCaps="true"
+                                    android:textColor="@color/black"
+                                    android:textSize="14sp" />
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:id="@+id/signInButtonFrameLayout"
+                                android:layout_width="0dp"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="32dp"
+                                android:background="@drawable/button_shape_primary_color"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/createNewAccountButtonFrameLayout2">
+
+                                <Button
+                                    android:id="@+id/addProductButton"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="@android:color/transparent"
+                                    android:fontFamily="@font/poppins_medium"
+                                    android:text="@string/addProductText"
+                                    android:textAllCaps="true"
+                                    android:textColor="@color/white"
+                                    android:textSize="14sp" />
+                            </FrameLayout>
+
+                            <EditText
+                                android:id="@+id/productDescriptionEditText"
+                                android:layout_width="0dp"
+                                android:layout_height="150dp"
+                                android:layout_marginTop="2dp"
+                                android:background="@drawable/edit_text_area_shape"
+                                android:ems="10"
+                                android:fontFamily="@font/poppins_regular"
+                                android:gravity="top"
+                                android:hint="@string/productDescriptionText"
+                                android:inputType="text|textMultiLine"
+                                android:textSize="14sp"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="0.0"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+                            <TextView
+                                android:id="@+id/textView10"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="24dp"
+                                android:fontFamily="@font/poppins_regular"
+                                android:text="@string/productDescriptionText"
+                                android:textSize="14sp"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/priceEditText" />
+
+                            <EditText
+                                android:id="@+id/quantityTextText"
+                                android:layout_width="0dp"
+                                android:layout_height="50dp"
+                                android:layout_marginStart="4dp"
+                                android:background="@drawable/edit_text_area_shape"
+                                android:ems="10"
+                                android:fontFamily="@font/poppins_regular"
+                                android:hint="@string/productQuantityText"
+                                android:inputType="number"
+                                android:textSize="14sp"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toEndOf="@+id/priceEditText"
+                                app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+                            <TextView
+                                android:id="@+id/textView7"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="4dp"
+                                android:layout_marginTop="24dp"
+                                android:fontFamily="@font/poppins_regular"
+                                android:text="@string/productQuantityText"
+                                android:textSize="14sp"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toEndOf="@+id/textView4"
+                                app:layout_constraintTop_toBottomOf="@+id/categorySpinner2" />
+
+                            <TextView
+                                android:id="@+id/textView4"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="24dp"
+                                android:layout_marginEnd="4dp"
+                                android:fontFamily="@font/poppins_regular"
+                                android:text="@string/productPriceText"
+                                android:textSize="14sp"
+                                app:layout_constraintEnd_toStartOf="@+id/textView7"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/vehicleSpinner2" />
+
+                            <EditText
+                                android:id="@+id/priceEditText"
+                                android:layout_width="0dp"
+                                android:layout_height="50dp"
+                                android:layout_marginTop="2dp"
+                                android:layout_marginEnd="4dp"
+                                android:background="@drawable/edit_text_area_shape"
+                                android:ems="10"
+                                android:fontFamily="@font/poppins_regular"
+                                android:hint="@string/productPriceText"
+                                android:inputType="number"
+                                android:textSize="14sp"
+                                app:layout_constraintEnd_toStartOf="@+id/quantityTextText"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+                            <ImageView
+                                android:id="@+id/imageView25"
+                                android:layout_width="150dp"
+                                android:layout_height="150dp"
+                                android:layout_marginTop="16dp"
+                                android:scaleType="centerInside"
+                                android:src="@drawable/default_product_image"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/textView37" />
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </LinearLayout>
+            </ScrollView>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
